@@ -1,0 +1,125 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif; }
+
+h1, h2, h4, nav li a {
+  font-family: "Headland One", Helvetica, serif; }
+
+h1 {
+  font-size: 48px;
+  margin-top: 80px;
+  color: #000000;
+  float: center; 
+  text-align: center;}
+
+h2 {
+  margin-top: 80px;
+  font-size: 28px;
+  float: center; 
+  text-align:center;}
+
+h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 200px }
+
+.why-list {
+  margin-top: 0px; }
+  .why-list li {
+    line-height: 28px; }
+
+a {
+  cursor: pointer; }
+
+ul {
+  list-style: none;
+  padding-left: 10px; }
+
+.nav-container {
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  position: fixed;
+  left: 0px; }
+
+nav {
+  text-align: center;
+  width: 640px;
+  margin: 0px auto; }
+  nav ul {
+    padding: 0px; }
+  nav li {
+    width: 24%;
+    display: inline-block; }
+    nav li a {
+      font-size: 15px;
+      color: white; }
+    nav li a.active {
+      color: Yellow; }
+
+a.active {}
+  @media screen and (max-width: 640px) {
+    nav {
+      width: 90%; }
+      nav li {
+        width: 22%;
+      }
+      nav li a {
+        font-size: 13px; } }
+
+section {
+  padding-top: 40px;
+  height: 650px;
+  width: 100%; }
+  section .content {
+    margin: 0px auto;
+    max-width: 640px; }
+    @media screen and (max-width: 640px) {
+      section .content {
+        width: 90%; } }
+    section .content a {
+      color: hsl(0, 0%, 0%); }
+
+section:nth-child(odd) {
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  float: center;
+  text-align: center; }
+  section:nth-child(odd) a {
+    color: white; }
+
+.bottom-link {
+  margin-top: 80px;
+  }
+
+.gist-meta {
+  display: none; }
+
+.file-data {
+  font-size: 14px; }
+
+
+.btn {
+  font-family: Helvetica;
+  color: yellow;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: white;
+  text-decoration: none;
+  color: black;
+}
+
+.data-scroll-goto {
+  color: black;
+}
+img {
+
+
+}
+
+
